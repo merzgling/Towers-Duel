@@ -1,4 +1,4 @@
-﻿namespace CoreLogic.Player
+﻿namespace GameLogic.Player
 {
     public class PlayerData
     {
