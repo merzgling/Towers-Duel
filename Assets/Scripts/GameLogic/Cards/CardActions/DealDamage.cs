@@ -9,13 +9,9 @@ namespace GameLogic.Cards.CardActions
     {
         [SerializeField] private int DamageAmount; 
         
-        public void DoAction(PlayerData subject, PlayerData target)
+        public void DoAction(IPlayerController subject, IPlayerController target)
         {
-            int damageToWall = Math.Min(DamageAmount, target.WallHeight);
-            int damageToTower = Math.Min(DamageAmount - damageToWall, target.TowerHeight);
-
-            target.WallHeight -= damageToWall;
-            target.TowerHeight -= damageToTower;
+            target.TakeDamage(DamageAmount);
         }
     }
 }

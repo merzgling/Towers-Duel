@@ -4,6 +4,6 @@ namespace GameLogic.Cards.CardActions
 {
     public interface ICardAction
     {
-        void DoAction(PlayerData subject, PlayerData target);
+        void DoAction(IPlayerController subject, IPlayerController target);
     }
 }

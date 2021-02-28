@@ -8,10 +8,9 @@ namespace GameLogic.Cards.CardActions
     public class DealDamageToWall : ScriptableObject, ICardAction
     {
         [SerializeField] private int DamageAmount;
-        public void DoAction(PlayerData subject, PlayerData target)
+        public void DoAction(IPlayerController subject, IPlayerController target)
         {
-            int damage = Math.Min(DamageAmount, target.WallHeight);
-            target.WallHeight -= damage;
+            target.TakeDamageToWall(DamageAmount);
         }
     }
 }

@@ -7,6 +7,6 @@ namespace GameLogic.Cards
     public class CardCost
     {
         public ResourceType ResourceType;
-        public int RessurceAmount;
+        public int ResourceAmount;
     }
 }

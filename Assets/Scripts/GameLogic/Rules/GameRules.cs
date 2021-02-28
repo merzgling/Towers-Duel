@@ -8,5 +8,7 @@ namespace GameLogic.Rules
     public class GameRules : ScriptableObject
     {
         public List<IGameEndRule> GameEndRules;
+
+        public int NumberOfCardsOnStart = 7;
     }
 }
