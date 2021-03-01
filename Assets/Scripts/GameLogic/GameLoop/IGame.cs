@@ -1,5 +1,6 @@
 ﻿using System;
 using GameLogic.Cards;
+using GameLogic.Player;
 
 namespace GameLogic.GameLoop
 {
@@ -10,5 +11,7 @@ namespace GameLogic.GameLoop
         int CurrentPlayer { get; }
         
         Action<GameResult> GameEnds { get; }
+
+        PlayerData[] GetPlayersData();
     }
 }

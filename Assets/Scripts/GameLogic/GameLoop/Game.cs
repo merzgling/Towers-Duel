@@ -19,11 +19,11 @@ namespace GameLogic.GameLoop
         public Game(Deck deck, GameRules gameRules)
         {
             _gameRules = gameRules;
-            _players.Add(new PlayerController(new PlayerData(), deck));
-            _players.Add(new PlayerController(new PlayerData(), deck));
+            _players.Add(new PlayerController(new PlayerData(gameRules.GameStartRule), deck));
+            _players.Add(new PlayerController(new PlayerData(gameRules.GameStartRule), deck));
             
-            _players[0].TakeCard(_gameRules.NumberOfCardsOnStart);
-            _players[1].TakeCard(_gameRules.NumberOfCardsOnStart);
+            _players[0].TakeCard(_gameRules.GameStartRule.NumberOfCardsOnStart);
+            _players[1].TakeCard(_gameRules.GameStartRule.NumberOfCardsOnStart);
         }
 
         private void EndTurn()
@@ -51,6 +51,15 @@ namespace GameLogic.GameLoop
             }
             
             return turnValid;
+        }
+
+        public PlayerData[] GetPlayersData()
+        {
+            return new []
+            {
+                _players[0].PlayerData,
+                _players[1].PlayerData
+            };
         }
 
         private void CheckGameEnds()

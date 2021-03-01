@@ -16,4 +16,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 7f4e6a2765c18aa4fba32953104b2ff3, type: 2}
   - {fileID: 11400000, guid: 433223dd89932db4a8d401f04a91734d, type: 2}
   - {fileID: 11400000, guid: cff09b00d15c92746ae1571041574018, type: 2}
-  NumberOfCardsOnStart: 7
+  GameStartRule: {fileID: 11400000, guid: 1f3a50432930a7547befb71c6f225345, type: 2}

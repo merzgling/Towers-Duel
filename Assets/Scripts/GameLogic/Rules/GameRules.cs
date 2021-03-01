@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using GameLogic.Rules.GameEndRules;
+using GameLogic.Rules.GameStartRules;
 using UnityEngine;
 
 namespace GameLogic.Rules
@@ -9,6 +10,6 @@ namespace GameLogic.Rules
     {
         public List<GameEndRule> GameEndRules;
 
-        public int NumberOfCardsOnStart = 7;
+        public GameStartRule GameStartRule;
     }
 }

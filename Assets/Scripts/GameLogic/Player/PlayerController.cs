@@ -1,18 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
 using GameLogic.Cards;
-using GameLogic.Cards.CardActions;
 using GameLogic.Core;
 using GameLogic.Rules;
 using StaticFunctions;
-using UnityEngine.XR;
-using Random = UnityEngine.Random;
-
 namespace GameLogic.Player
 {
     public class PlayerController : IPlayerController
     {
         private PlayerData _playerData;
+        
+        public PlayerData PlayerData { get; }
 
         public PlayerController(PlayerData playerData, Deck deck)
         {

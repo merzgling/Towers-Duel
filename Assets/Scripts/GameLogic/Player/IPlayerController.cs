@@ -26,5 +26,7 @@ namespace GameLogic.Player
         void DiscardCard(int amount);
 
         bool PlayCard(Card card, IPlayerController target);
+        
+        PlayerData PlayerData { get; }
     }
 }
