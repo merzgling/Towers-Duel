@@ -6,10 +6,10 @@ using UnityEngine;
 namespace GameLogic.Cards.CardActions
 {
     [CreateAssetMenu(fileName = "DealDamageToTower", menuName = "Cards/DealDamageToTower", order = 1)]
-    public class DealDamageToTower : ScriptableObject, ICardAction
+    public class DealDamageToTower : CardAction
     {
         [SerializeField] private int DamageAmount;
-        public void DoAction(IPlayerController subject, IPlayerController target)
+        public override void DoAction(IPlayerController subject, IPlayerController target)
         {
             target.TakeDamageToTower(DamageAmount);
         }

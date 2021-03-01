@@ -5,11 +5,11 @@ using UnityEngine;
 namespace GameLogic.Cards.CardActions
 {
     [CreateAssetMenu(fileName = "DealDamageToYourself", menuName = "Cards/DealDamageToYourself", order = 1)]
-    public class DealDamageToYourself : ScriptableObject, ICardAction
+    public class DealDamageToYourself : CardAction
     {
         [SerializeField] private int DamageAmount;
         
-        public void DoAction(IPlayerController subject, IPlayerController target)
+        public override void DoAction(IPlayerController subject, IPlayerController target)
         {
             subject.TakeDamage(DamageAmount);
         }

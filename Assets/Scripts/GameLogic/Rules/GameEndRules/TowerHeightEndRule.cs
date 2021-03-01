@@ -4,16 +4,16 @@ using UnityEngine;
 namespace GameLogic.Rules.GameEndRules
 {
     [CreateAssetMenu(fileName = "TowerHeightEndRule", menuName = "Rules/TowerHeightEndRule", order = 1)]
-    public class TowerHeightEndRule : ScriptableObject, IGameEndRule
+    public class TowerHeightEndRule : GameEndRule
     {
         [SerializeField] private int MaxHeight;
         
-        public bool IsWinAchieved(PlayerData playerData)
+        public override bool IsWinAchieved(PlayerData playerData)
         {
             return playerData.TowerHeight >= MaxHeight;
         }
 
-        public bool IsLoseAchieved(PlayerData playerData)
+        public override bool IsLoseAchieved(PlayerData playerData)
         {
             return false;
         }

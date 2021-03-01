@@ -10,6 +10,6 @@ namespace GameLogic.Cards
     {
         public CardCost CardCost;
 
-        public List<ICardAction> Actions;
+        public List<CardAction> Actions;
     }
 }

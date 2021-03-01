@@ -4,11 +4,11 @@ using UnityEngine;
 namespace GameLogic.Cards.CardActions
 {
     [CreateAssetMenu(fileName = "BuildWall", menuName = "Cards/BuildWall", order = 1)]
-    public class BuildWall : ScriptableObject, ICardAction
+    public class BuildWall : CardAction
     {
         [SerializeField] private int buildAmount;
         
-        public void DoAction(IPlayerController subject, IPlayerController target)
+        public override void DoAction(IPlayerController subject, IPlayerController target)
         {
             subject.BuildWall(buildAmount);
         }
