@@ -9,13 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5bd3ba043a7b4cfbbbfbe8046f1e6b51, type: 3}
-  m_Name: Deal2DMG
+  m_Script: {fileID: 11500000, guid: 52c11947bb7b4210bc75abf3ba092896, type: 3}
+  m_Name: BuildWall
   m_EditorClassIdentifier: 
-  Name: Deal2Dmg
-  Description: Deal 2 damage to enemy.
-  CardCost:
-    ResourceType: 0
-    ResourceAmount: 3
-  Actions:
-  - {fileID: 11400000, guid: d8b920fd4192dd5438956e0aeb1c9256, type: 2}
+  buildAmount: 3

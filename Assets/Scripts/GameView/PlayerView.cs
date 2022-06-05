@@ -17,6 +17,8 @@ namespace GameView
         [SerializeField] private Text _towerHeightText;
         [SerializeField] private Text _wallHeightText;
 
+        [SerializeField] private HandView _handView;
+
         public void SetData(PlayerData playerData)
         {
             _uranusMinesText.text = playerData.UranusMines.ToString();
@@ -29,6 +31,9 @@ namespace GameView
 
             _towerHeightText.text = playerData.TowerHeight.ToString();
             _wallHeightText.text = playerData.WallHeight.ToString();
+
+            if (_handView)
+                _handView.SetData(playerData.Hand);
         }
     }
 }

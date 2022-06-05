@@ -10,7 +10,7 @@ namespace GameLogic.Cards.CardActions
     {
         [SerializeField] private int DamageAmount;
 
-        public override void DoAction(IPlayerController subject, IPlayerController target)
+        public override void DoAction(IPlayerModel subject, IPlayerModel target)
         {
             subject.TakeDamageToTower(DamageAmount);
         }

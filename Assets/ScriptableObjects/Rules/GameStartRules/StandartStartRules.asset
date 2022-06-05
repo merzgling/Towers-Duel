@@ -20,4 +20,4 @@ MonoBehaviour:
   StartUranus: 15
   StartEnergy: 15
   StartSlaves: 15
-  NumberOfCardsOnStart: 7
+  NumberOfCardsOnStart: 6

@@ -9,7 +9,7 @@ namespace GameLogic.GameLoop
     public class Game : IGame
     {
         private GameRules _gameRules;
-        private List<IPlayerController> _players = new List<IPlayerController>();
+        private List<IPlayerModel> _players = new List<IPlayerModel>();
         public int CurrentPlayer { get; private set; }
 
         public Action<GameResult> GameEnds { get; }
@@ -19,8 +19,8 @@ namespace GameLogic.GameLoop
         public Game(Deck deck, GameRules gameRules)
         {
             _gameRules = gameRules;
-            _players.Add(new PlayerController(new PlayerData(gameRules.GameStartRule), deck));
-            _players.Add(new PlayerController(new PlayerData(gameRules.GameStartRule), deck));
+            _players.Add(new PlayerModel(new PlayerData(gameRules.GameStartRule), deck));
+            _players.Add(new PlayerModel(new PlayerData(gameRules.GameStartRule), deck));
             
             _players[0].TakeCard(_gameRules.GameStartRule.NumberOfCardsOnStart);
             _players[1].TakeCard(_gameRules.GameStartRule.NumberOfCardsOnStart);

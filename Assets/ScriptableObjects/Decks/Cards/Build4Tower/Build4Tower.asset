@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5bd3ba043a7b4cfbbbfbe8046f1e6b51, type: 3}
-  m_Name: Deal2DMG
+  m_Name: Build4Tower
   m_EditorClassIdentifier: 
-  Name: Deal2Dmg
-  Description: Deal 2 damage to enemy.
+  Name: Build4Tower
+  Description: Build 4 tower
   CardCost:
-    ResourceType: 0
-    ResourceAmount: 3
+    ResourceType: 1
+    ResourceAmount: 2
   Actions:
-  - {fileID: 11400000, guid: d8b920fd4192dd5438956e0aeb1c9256, type: 2}
+  - {fileID: 11400000, guid: 40fe2aed2d2365e43b2e69263ddcedbe, type: 2}

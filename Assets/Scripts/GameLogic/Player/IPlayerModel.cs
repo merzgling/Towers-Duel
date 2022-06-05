@@ -5,7 +5,7 @@ using GameLogic.Rules;
 
 namespace GameLogic.Player
 {
-    public interface IPlayerController
+    public interface IPlayerModel
     {
         bool IsPlayerWin(GameRules gameRules);
 
@@ -25,7 +25,7 @@ namespace GameLogic.Player
 
         void DiscardCard(int amount);
 
-        bool PlayCard(Card card, IPlayerController target);
+        bool PlayCard(Card card, IPlayerModel target);
         
         PlayerData PlayerData { get; }
     }

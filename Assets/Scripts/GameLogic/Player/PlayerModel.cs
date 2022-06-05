@@ -6,13 +6,13 @@ using GameLogic.Rules;
 using StaticFunctions;
 namespace GameLogic.Player
 {
-    public class PlayerController : IPlayerController
+    public class PlayerModel : IPlayerModel
     {
         private PlayerData _playerData;
         
-        public PlayerData PlayerData { get; }
+        public PlayerData PlayerData => _playerData;
 
-        public PlayerController(PlayerData playerData, Deck deck)
+        public PlayerModel(PlayerData playerData, Deck deck)
         {
             _playerData = playerData;
             _playerData.Deck = new List<Card>(deck.Cards);
@@ -91,7 +91,7 @@ namespace GameLogic.Player
             }
         }
 
-        public bool PlayCard(Card card, IPlayerController target)
+        public bool PlayCard(Card card, IPlayerModel target)
         {
             if (_playerData.Hand.Contains(card) && HaveEnoughResources(card.CardCost))
             {
@@ -110,14 +110,12 @@ namespace GameLogic.Player
 
         private void TakeCard(Card card)
         {
-            _playerData.Deck.Remove(card);
-            _playerData.Hand.Add(card);
+            _playerData.Hand.Add(card.Clone());
         }
 
         private void DiscardCard(Card card)
         {
             _playerData.Hand.Remove(card);
-            _playerData.Deck.Add(card);
         }
 
         private bool HaveEnoughResources(CardCost cost)
