@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using Controller;
 using GameLogic.Cards;
 using UnityEngine;
 
@@ -10,7 +11,7 @@ namespace GameView
 
         private Dictionary<Card, CardView> _cardViews = new Dictionary<Card, CardView>();
 
-        public void SetData(List<Card> hand)
+        public void SetData(List<Card> hand, int playerIndex, GameController gameController)
         {
             foreach (var card in hand)
             {
@@ -19,7 +20,7 @@ namespace GameView
                     CardView cardView = Instantiate(_cardPrefab).GetComponent<CardView>();
                     cardView.transform.parent = transform;
                     cardView.transform.localScale = new Vector3(1, 1, 1);
-                    cardView.SetData(card);
+                    cardView.SetData(card, playerIndex, gameController);
                     _cardViews.Add(card, cardView);
                 }
             }

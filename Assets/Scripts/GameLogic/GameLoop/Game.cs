@@ -19,8 +19,8 @@ namespace GameLogic.GameLoop
         public Game(Deck deck, GameRules gameRules)
         {
             _gameRules = gameRules;
-            _players.Add(new PlayerModel(new PlayerData(gameRules.GameStartRule), deck));
-            _players.Add(new PlayerModel(new PlayerData(gameRules.GameStartRule), deck));
+            _players.Add(new PlayerModel(new PlayerData(gameRules.GameStartRule, 0), deck));
+            _players.Add(new PlayerModel(new PlayerData(gameRules.GameStartRule, 1), deck));
             
             _players[0].TakeCard(_gameRules.GameStartRule.NumberOfCardsOnStart);
             _players[1].TakeCard(_gameRules.GameStartRule.NumberOfCardsOnStart);

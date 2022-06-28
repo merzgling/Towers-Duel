@@ -18,7 +18,9 @@ namespace GameLogic.Player
         public List<Card> Hand = new List<Card>();
         public List<Card> Deck = new List<Card>();
 
-        public PlayerData(GameStartRule gameStartRule)
+        public readonly int PlayerIndex;
+
+        public PlayerData(GameStartRule gameStartRule, int playerIndex)
         {
             TowerHeight = gameStartRule.StartTowerHeight;
             WallHeight = gameStartRule.StartWallHeight;
@@ -30,6 +32,8 @@ namespace GameLogic.Player
             Uranus = gameStartRule.StartUranus;
             Energy = gameStartRule.StartEnergy;
             Slaves = gameStartRule.StartSlaves;
+            
+            PlayerIndex = playerIndex;
         }
     }
 }

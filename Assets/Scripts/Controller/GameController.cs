@@ -24,8 +24,15 @@ namespace Controller
             _game = new Game(_deck, _gameRules);
 
             _playersData = _game.GetPlayersData();
-            _playerView1.SetData(_playersData[0]);
-            _playerView2.SetData(_playersData[1]);
+            _playerView1.SetData(_playersData[0], 0, this);
+            _playerView2.SetData(_playersData[1], 1, this);
+        }
+
+        public bool TryToPlayCard(Card card, int playerIndex)
+        {
+            bool result = _game.TryToPlayCard(card, playerIndex);
+            Debug.Log($"Card {card.Name} try to played, result: {result}");
+            return result;
         }
     }
 }
