@@ -29,9 +29,13 @@ namespace GameView
             foreach (var cardView in _cardViews)
                 if (!hand.Contains(cardView.Key))
                     cardsToRemove.Add(cardView.Key);
-            
+
             foreach (var card in cardsToRemove)
+            {
+                GameObject objectToDestroy = _cardViews[card].gameObject;
                 _cardViews.Remove(card);
+                Destroy(objectToDestroy);
+            }
         }
     }
 }

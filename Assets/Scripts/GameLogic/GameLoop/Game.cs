@@ -22,8 +22,8 @@ namespace GameLogic.GameLoop
             _players.Add(new PlayerModel(new PlayerData(gameRules.GameStartRule, 0), deck));
             _players.Add(new PlayerModel(new PlayerData(gameRules.GameStartRule, 1), deck));
             
-            _players[0].TakeCard(_gameRules.GameStartRule.NumberOfCardsOnStart);
-            _players[1].TakeCard(_gameRules.GameStartRule.NumberOfCardsOnStart);
+            _players[0].DrawCard(_gameRules.GameStartRule.NumberOfCardsOnStart);
+            _players[1].DrawCard(_gameRules.GameStartRule.NumberOfCardsOnStart);
         }
 
         private void EndTurn()
@@ -31,7 +31,7 @@ namespace GameLogic.GameLoop
             CurrentPlayer++;
             CurrentPlayer %= _totalPlayer;
             
-            _players[CurrentPlayer].TakeCard(1); 
+            _players[CurrentPlayer].DrawCard(1); 
         }
 
         public bool TryToPlayCard(Card card, int playerIndex)

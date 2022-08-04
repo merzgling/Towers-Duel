@@ -5,7 +5,7 @@ namespace Controller
 {
     public class PlayerController
     {
-        private PlayerData _playerData;
+        protected PlayerData _playerData;
         private GameController _gameController;
 
         public PlayerController(PlayerData playerData, GameController gameController)

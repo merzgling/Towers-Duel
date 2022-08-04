@@ -21,7 +21,7 @@ namespace GameLogic.Player
 
         void BuildTower(int amount);
 
-        void TakeCard(int amount);
+        void DrawCard(int amount);
 
         void DiscardCard(int amount);
 

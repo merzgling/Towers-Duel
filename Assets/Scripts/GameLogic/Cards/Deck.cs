@@ -1,11 +1,37 @@
 ﻿using System.Collections.Generic;
-using UnityEngine;
+using StaticFunctions;
 
 namespace GameLogic.Cards
 {
-    [CreateAssetMenu(fileName = "Deck", menuName = "Cards/Deck", order = 1)]
-    public class Deck : ScriptableObject
+    public class Deck
     {
-        public List<Card> Cards;
+        private DeckInfo _deckInfo;
+        private List<Card> _cardsPool = new List<Card>();
+
+        public Deck(DeckInfo deck)
+        {
+            _deckInfo = deck;
+            ShuffleCardPool();
+        }
+
+        public Card DrawCard()
+        {
+            if (_cardsPool.Count == 0)
+                ShuffleCardPool();
+
+            Card result = _cardsPool.GetRandom();
+            _cardsPool.Remove(result);
+            return result;
+        }
+
+        private void ShuffleCardPool()
+        {
+            _cardsPool.Clear();
+            foreach (var card in _deckInfo.Cards)
+            {
+                _cardsPool.Add(new Card(card));
+            };
+            
+        }
     }
 }

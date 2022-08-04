@@ -18,7 +18,7 @@ namespace GameView
         public void SetData(Card card, int playerIndex, GameController gameController)
         {
             _card = card;
-            _name.text = card.Name;
+            _name.text = _card.Name;
             _cardCost.text = _card.CardCost.ResourceAmount.ToString();
             _description.text = _card.Description;
             _playerIndex = playerIndex;

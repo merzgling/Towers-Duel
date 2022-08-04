@@ -15,7 +15,7 @@ namespace GameLogic.Player
         public PlayerModel(PlayerData playerData, Deck deck)
         {
             _playerData = playerData;
-            _playerData.Deck = new List<Card>(deck.Cards);
+            _playerData.Deck = deck;
         }
 
         public bool IsPlayerWin(GameRules gameRules)
@@ -73,11 +73,11 @@ namespace GameLogic.Player
             _playerData.TowerHeight += amount;
         }
 
-        public void TakeCard(int amount)
+        public void DrawCard(int amount)
         {
-            while (amount > 0 && _playerData.Deck.Count > 0)
+            while (amount > 0)
             {
-                TakeCard(_playerData.Deck.GetRandom());
+                DrawCard(_playerData.Deck.DrawCard());
                 amount--;
             }
         }
@@ -108,9 +108,9 @@ namespace GameLogic.Player
             return false;
         }
 
-        private void TakeCard(Card card)
+        private void DrawCard(Card card)
         {
-            _playerData.Hand.Add(card.Clone());
+            _playerData.Hand.Add(_playerData.Deck.DrawCard());
         }
 
         private void DiscardCard(Card card)
