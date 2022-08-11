@@ -9,8 +9,9 @@ namespace GameLogic.Player
     public class PlayerModel : IPlayerModel
     {
         private PlayerData _playerData;
-        
+
         public PlayerData PlayerData => _playerData;
+        bool _canPlayCardAgain;
 
         public PlayerModel(PlayerData playerData, Deck deck)
         {
@@ -73,6 +74,38 @@ namespace GameLogic.Player
             _playerData.TowerHeight += amount;
         }
 
+        public void ChangeMines(int delta, ResourceType type)
+        {
+            if (type == ResourceType.Energy)
+                _playerData.EnergyMines += delta;
+            if (type == ResourceType.Uranus)
+                _playerData.UranusMines += delta;
+            if (type == ResourceType.Slaves)
+                _playerData.SlavesMines += delta;
+            if (_playerData.EnergyMines < 1)
+                _playerData.EnergyMines = 1;
+            if (_playerData.UranusMines < 1)
+                _playerData.UranusMines = 1;
+            if (_playerData.SlavesMines < 1)
+                _playerData.SlavesMines = 1;
+        }
+
+        public void ChangeResources(int delta, ResourceType type)
+        {
+            if (type == ResourceType.Energy)
+                _playerData.Energy += delta;
+            if (type == ResourceType.Uranus)
+                _playerData.Uranus += delta;
+            if (type == ResourceType.Slaves)
+                _playerData.Slaves += delta;
+            if (_playerData.Energy < 0)
+                _playerData.Energy = 0;
+            if (_playerData.Uranus < 0)
+                _playerData.Uranus = 0;
+            if (_playerData.Slaves < 0)
+                _playerData.Slaves = 0;
+        }
+
         public void DrawCard(int amount)
         {
             while (amount > 0)
@@ -91,6 +124,16 @@ namespace GameLogic.Player
             }
         }
 
+        public void LetToPlayCardAgain()
+        {
+            _canPlayCardAgain = true;
+        }
+
+        public void ForbidToPlayCardAgain()
+        {
+            _canPlayCardAgain = false;
+        }
+
         public bool PlayCard(Card card, IPlayerModel target)
         {
             if (_playerData.Hand.Contains(card) && HaveEnoughResources(card.CardCost))
@@ -106,6 +149,33 @@ namespace GameLogic.Player
             }
 
             return false;
+        }
+
+        public bool CanPlayCardAgain()
+        {
+            return _canPlayCardAgain;
+        }
+
+        public int GetResourceAmount(ResourceType type)
+        {
+            if (type == ResourceType.Energy)
+                return _playerData.Energy;
+            if (type == ResourceType.Uranus)
+                return _playerData.Uranus;
+            if (type == ResourceType.Slaves)
+                return _playerData.Slaves;
+            return 0;
+        }
+
+        public int GetResourceMinesAmount(ResourceType type)
+        {
+            if (type == ResourceType.Energy)
+                return _playerData.EnergyMines;
+            if (type == ResourceType.Uranus)
+                return _playerData.UranusMines;
+            if (type == ResourceType.Slaves)
+                return _playerData.SlavesMines;
+            return 0;
         }
 
         private void DrawCard(Card card)

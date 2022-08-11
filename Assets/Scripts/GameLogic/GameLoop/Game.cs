@@ -28,9 +28,16 @@ namespace GameLogic.GameLoop
 
         private void EndTurn()
         {
-            CurrentPlayer++;
-            CurrentPlayer %= _totalPlayer;
-            
+            if (_players[CurrentPlayer].CanPlayCardAgain())
+            {
+                _players[CurrentPlayer].ForbidToPlayCardAgain();
+            }
+            else
+            {
+                CurrentPlayer++;
+                CurrentPlayer %= _totalPlayer;
+            }
+
             _players[CurrentPlayer].DrawCard(1); 
         }
 

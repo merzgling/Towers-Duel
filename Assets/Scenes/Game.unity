@@ -1301,7 +1301,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9356ad263a14210ae3655155dd45473, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _deck: {fileID: 11400000, guid: 77f6b93eae595a347aa4788f146bd1b8, type: 2}
+  deckInfo: {fileID: 11400000, guid: 77f6b93eae595a347aa4788f146bd1b8, type: 2}
   _gameRules: {fileID: 11400000, guid: f66765fa7567be247a98bd93f1bf9fe3, type: 2}
   _playerView1: {fileID: 1189942514}
   _playerView2: {fileID: 70318900}

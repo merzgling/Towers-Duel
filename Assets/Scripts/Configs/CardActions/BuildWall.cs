@@ -6,11 +6,11 @@ namespace GameLogic.Cards.CardActions
     [CreateAssetMenu(fileName = "BuildWall", menuName = "Cards/BuildWall", order = 1)]
     public class BuildWall : CardAction
     {
-        [SerializeField] private int buildAmount;
+        [SerializeField] private int _buildAmount;
         
         public override void DoAction(IPlayerModel subject, IPlayerModel target)
         {
-            subject.BuildWall(buildAmount);
+            subject.BuildWall(_buildAmount);
         }
     }
 }

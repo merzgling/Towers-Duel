@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bd3ba043a7b4cfbbbfbe8046f1e6b51, type: 3}
+  m_Name: PoushieUgol
+  m_EditorClassIdentifier: 
+  Name: "\u041F\u043E\u044E\u0449\u0438\u0439 \u0443\u0433\u043E\u043B\u044C"
+  Description: "+6 \u043A \u0441\u0442\u0435\u043D\u0435, +3 \u043A \u0431\u0430\u0448\u043D\u0435"
+  CardCost:
+    ResourceType: 1
+    ResourceAmount: 11
+  Actions:
+  - {fileID: 11400000, guid: 5ebd422dcc9408c4dab562251d694064, type: 2}
+  - {fileID: 11400000, guid: bfd23e44f5d9199409e464bafccc8e07, type: 2}
