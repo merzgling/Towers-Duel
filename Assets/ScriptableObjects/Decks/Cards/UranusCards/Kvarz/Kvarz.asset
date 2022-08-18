@@ -12,9 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bd3ba043a7b4cfbbbfbe8046f1e6b51, type: 3}
   m_Name: Kvarz
   m_EditorClassIdentifier: 
-  Name: 
-  Description: 
+  Name: "\u041A\u0432\u0430\u0440\u0446"
+  Description: "+1 \u043A \u0431\u0430\u0448\u043D\u0435, \u0438\u0433\u0440\u0430\u0435\u043C
+    \u0441\u043D\u043E\u0432\u0430"
   CardCost:
     ResourceType: 0
-    ResourceAmount: 0
-  Actions: []
+    ResourceAmount: 1
+  Actions:
+  - {fileID: 11400000, guid: 10a42e7efaf7a0b449367ced81ed39f7, type: 2}
+  - {fileID: 11400000, guid: d7023a233afcbdc42a68cc63242756a1, type: 2}

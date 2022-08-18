@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bd3ba043a7b4cfbbbfbe8046f1e6b51, type: 3}
   m_Name: Minotavr
   m_EditorClassIdentifier: 
-  Name: 
-  Description: 
+  Name: "\u041C\u0438\u043D\u043E\u0442\u0430\u0432\u0440"
+  Description: "+1 \u043A\u0430\u0437\u0430\u0440\u043C\u0430"
   CardCost:
-    ResourceType: 0
-    ResourceAmount: 0
-  Actions: []
+    ResourceType: 2
+    ResourceAmount: 3
+  Actions:
+  - {fileID: 11400000, guid: a66c8b278074d7841999978bafd99fcc, type: 2}

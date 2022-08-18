@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bd3ba043a7b4cfbbbfbe8046f1e6b51, type: 3}
   m_Name: Treshina
   m_EditorClassIdentifier: 
-  Name: 
-  Description: 
+  Name: "\u0422\u0440\u0435\u0449\u0438\u043D\u0430"
+  Description: "3 \u0443\u0440\u043E\u043D\u0430 \u0431\u0430\u0448\u043D\u0435 \u0432\u0440\u0430\u0433\u0430"
   CardCost:
     ResourceType: 0
-    ResourceAmount: 0
-  Actions: []
+    ResourceAmount: 2
+  Actions:
+  - {fileID: 11400000, guid: c24e7b59f835ce34a8a3069225d331ab, type: 2}

@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bd3ba043a7b4cfbbbfbe8046f1e6b51, type: 3}
   m_Name: Krushitel
   m_EditorClassIdentifier: 
-  Name: 
-  Description: 
+  Name: "\u041A\u0440\u0443\u0448\u0438\u0442\u0435\u043B\u044C"
+  Description: "6 \u0443\u0440\u043E\u043D\u0430"
   CardCost:
-    ResourceType: 0
-    ResourceAmount: 0
-  Actions: []
+    ResourceType: 2
+    ResourceAmount: 5
+  Actions:
+  - {fileID: 11400000, guid: 1514a9c7599402740853cd4e1a6972fd, type: 2}

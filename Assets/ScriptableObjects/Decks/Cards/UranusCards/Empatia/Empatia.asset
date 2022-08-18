@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bd3ba043a7b4cfbbbfbe8046f1e6b51, type: 3}
   m_Name: Empatia
   m_EditorClassIdentifier: 
-  Name: 
-  Description: 
+  Name: "\u042D\u043C\u043F\u0430\u0442\u0438\u044F"
+  Description: "+8 \u043A \u0431\u0430\u0448\u043D\u0435, +1 \u043A\u0430\u0437\u0430\u0440\u043C\u0430"
   CardCost:
     ResourceType: 0
-    ResourceAmount: 0
-  Actions: []
+    ResourceAmount: 14
+  Actions:
+  - {fileID: 11400000, guid: b7ed6e4e9f73a5e458b6c4d04c34230b, type: 2}
+  - {fileID: 11400000, guid: edc5092d8c7be524f9cceaee30050b51, type: 2}

@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57ce4fab29dc45f0b6eaa0436716eb84, type: 3}
   m_Name: LetPlayCardAgain
   m_EditorClassIdentifier: 
-  _toYourself: 0
+  _toYourself: 1
