@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: IfAction
   m_EditorClassIdentifier: 
   _toYourself: 0
-  _ifTrueAction: {fileID: 0}
+  _ifTrueAction: {fileID: 11400000, guid: 8be4b34bce3eefd46b1f5240c7cd1862, type: 2}
   _ifFalseAction: {fileID: 0}
-  _predicate: {fileID: 0}
+  _predicate: {fileID: 11400000, guid: 1fee9162db7f39c41b09792d4e9158e9, type: 2}

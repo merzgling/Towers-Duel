@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bd3ba043a7b4cfbbbfbe8046f1e6b51, type: 3}
   m_Name: GnomyShahtery
   m_EditorClassIdentifier: 
-  Name: 
-  Description: 
+  Name: "\u0413\u043D\u043E\u043C\u044B-\u0448\u0430\u0445\u0442\u0435\u0440\u044B"
+  Description: "+4 \u043A \u0441\u0442\u0435\u043D\u0435, +1 \u0448\u0430\u0445\u0442\u0430"
   CardCost:
-    ResourceType: 0
-    ResourceAmount: 0
-  Actions: []
+    ResourceType: 1
+    ResourceAmount: 7
+  Actions:
+  - {fileID: 11400000, guid: df372b33667f854419d286c54a836cef, type: 2}
+  - {fileID: 11400000, guid: 632e1a78e1b65b642a8df5c197cb68d9, type: 2}

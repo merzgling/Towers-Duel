@@ -13,4 +13,6 @@ MonoBehaviour:
   m_Name: ListAction
   m_EditorClassIdentifier: 
   _toYourself: 0
-  Actions: []
+  Actions:
+  - {fileID: 11400000, guid: de04798b0a9cd5f45ab960bb3fa4df68, type: 2}
+  - {fileID: 11400000, guid: 32dd82e078159b042834aeab21b8200d, type: 2}

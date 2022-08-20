@@ -12,9 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bd3ba043a7b4cfbbbfbe8046f1e6b51, type: 3}
   m_Name: KrazaTehnology
   m_EditorClassIdentifier: 
-  Name: 
-  Description: 
+  Name: "\u041A\u0440\u0430\u0436\u0430 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0439"
+  Description: "\u0415\u0441\u043B\u0438 \u0448\u0430\u0445\u0442\u0430 \u043C\u0435\u043D\u044C\u0448\u0435
+    \u0448\u0430\u0445\u0442\u044B \u0432\u0440\u0430\u0433\u0430, \u0442\u043E \u0448\u0430\u0445\u0442\u0430
+    \u0441\u0442\u0430\u043D\u043E\u0432\u0438\u0442\u0441\u044F \u0440\u0430\u0432\u043D\u043E\u0439
+    \u0432\u0440\u0430\u0436\u0435\u0441\u043A\u043E\u0439"
   CardCost:
-    ResourceType: 0
-    ResourceAmount: 0
-  Actions: []
+    ResourceType: 1
+    ResourceAmount: 5
+  Actions:
+  - {fileID: 11400000, guid: 30d16f3d188b62545b87c0eb1ddaa333, type: 2}

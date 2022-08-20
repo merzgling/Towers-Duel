@@ -17,4 +17,5 @@ MonoBehaviour:
   CardCost:
     ResourceType: 1
     ResourceAmount: 13
-  Actions: []
+  Actions:
+  - {fileID: 11400000, guid: 2bd4a84e10025134eb45e8b65b0dd3b0, type: 2}

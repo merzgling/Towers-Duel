@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bd3ba043a7b4cfbbbfbe8046f1e6b51, type: 3}
   m_Name: VelikayStena
   m_EditorClassIdentifier: 
-  Name: 
-  Description: 
+  Name: "\u0412\u0435\u043B\u0438\u043A\u0430\u044F \u0441\u0442\u0435\u043D\u0430"
+  Description: "+ 8 \u043A \u0441\u0442\u0435\u043D\u0435"
   CardCost:
-    ResourceType: 0
-    ResourceAmount: 0
-  Actions: []
+    ResourceType: 1
+    ResourceAmount: 8
+  Actions:
+  - {fileID: 11400000, guid: 159413684c2a25944b11445bb117d4f5, type: 2}

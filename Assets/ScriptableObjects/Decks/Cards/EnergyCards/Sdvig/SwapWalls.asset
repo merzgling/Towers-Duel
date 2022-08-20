@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74bd03c6862a41f69074c98552e878d3, type: 3}
   m_Name: SwapWalls
   m_EditorClassIdentifier: 
-  _toYourself: 0
+  _toYourself: 1

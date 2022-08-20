@@ -12,9 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bd3ba043a7b4cfbbbfbe8046f1e6b51, type: 3}
   m_Name: BrackovanayStena
   m_EditorClassIdentifier: 
-  Name: 
-  Description: 
+  Name: "\u0411\u0440\u0430\u043A\u043E\u0432\u0430\u043D\u043D\u0430\u044F \u0440\u0443\u0434\u0430"
+  Description: "\u0412\u0441\u0435 \u0438\u0433\u0440\u043E\u043A\u0438 \u0442\u0435\u0440\u044F\u044E\u0442
+    \u043F\u043E 8 \u0440\u0443\u0434\u044B"
   CardCost:
-    ResourceType: 0
+    ResourceType: 1
     ResourceAmount: 0
-  Actions: []
+  Actions:
+  - {fileID: 11400000, guid: 44a0daa45cdd8dc429235f69f0fe259d, type: 2}
+  - {fileID: 11400000, guid: 67bebe21af706f9488c25cd133635740, type: 2}

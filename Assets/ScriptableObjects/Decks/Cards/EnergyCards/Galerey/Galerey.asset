@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bd3ba043a7b4cfbbbfbe8046f1e6b51, type: 3}
   m_Name: Galerey
   m_EditorClassIdentifier: 
-  Name: 
-  Description: 
+  Name: "\u0413\u0430\u043B\u0435\u0440\u0435\u0438"
+  Description: "+5 \u043A \u0441\u0442\u0435\u043D\u0435, +1 \u043A\u0430\u0437\u0430\u0440\u043C\u0430"
   CardCost:
-    ResourceType: 0
-    ResourceAmount: 0
-  Actions: []
+    ResourceType: 1
+    ResourceAmount: 9
+  Actions:
+  - {fileID: 11400000, guid: 0f20bb535fbc5754084e1d691e3fd8f2, type: 2}
+  - {fileID: 11400000, guid: ec858fc292e60ce49b2160f020091849, type: 2}

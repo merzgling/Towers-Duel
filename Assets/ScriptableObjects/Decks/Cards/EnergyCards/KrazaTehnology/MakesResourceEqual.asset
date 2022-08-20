@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa7147c58bc3494da193f1cb4645c1e8, type: 3}
   m_Name: MakesResourceEqual
   m_EditorClassIdentifier: 
-  _toYourself: 0
-  _type: 0
-  _isMine: 0
+  _toYourself: 1
+  _type: 1
+  _isMine: 1

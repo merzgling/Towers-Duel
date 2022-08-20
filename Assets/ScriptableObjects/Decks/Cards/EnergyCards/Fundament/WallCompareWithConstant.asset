@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c8b93a0f57b425ba9f8ce6119d466b9, type: 3}
   m_Name: WallCompareWithConstant
   m_EditorClassIdentifier: 
-  _predictionType: 0
+  _predictionType: 2
   _constantValue: 0
-  _toYourself: 0
+  _toYourself: 1

@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52c11947bb7b4210bc75abf3ba092896, type: 3}
   m_Name: BuildWall
   m_EditorClassIdentifier: 
-  _toYourself: 0
-  _buildAmount: 0
+  _toYourself: 1
+  _buildAmount: 12
