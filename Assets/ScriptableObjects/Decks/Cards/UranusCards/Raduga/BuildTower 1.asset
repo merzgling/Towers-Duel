@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: BuildTower 1
   m_EditorClassIdentifier: 
   _toYourself: 0
-  _buildAmount: 0
+  _buildAmount: 1

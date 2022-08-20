@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bd3ba043a7b4cfbbbfbe8046f1e6b51, type: 3}
   m_Name: KristalnyShit
   m_EditorClassIdentifier: 
-  Name: 
-  Description: 
+  Name: "\u041A\u0440\u0438\u0441\u0442\u0430\u043B\u044C\u043D\u044B\u0439 \u0449\u0438\u0442"
+  Description: "+8 \u043A \u0431\u0430\u0448\u043D\u0435, +3 \u043A \u0441\u0442\u0435\u043D\u0435"
   CardCost:
     ResourceType: 0
-    ResourceAmount: 0
-  Actions: []
+    ResourceAmount: 12
+  Actions:
+  - {fileID: 11400000, guid: b1ea12f025758b3429abdb2a9c374364, type: 2}
+  - {fileID: 11400000, guid: f69c78bea090cd142b41ff490e227313, type: 2}

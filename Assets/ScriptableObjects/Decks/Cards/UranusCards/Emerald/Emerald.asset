@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bd3ba043a7b4cfbbbfbe8046f1e6b51, type: 3}
   m_Name: Emerald
   m_EditorClassIdentifier: 
-  Name: 
-  Description: 
+  Name: "\u042D\u043C\u0435\u043B\u044C\u0440\u0430\u043B\u044C\u0434"
+  Description: "+8 \u043A \u0431\u0430\u0448\u043D\u0435"
   CardCost:
     ResourceType: 0
-    ResourceAmount: 0
-  Actions: []
+    ResourceAmount: 6
+  Actions:
+  - {fileID: 11400000, guid: 097556a57554c654cbe909d88e7a299a, type: 2}

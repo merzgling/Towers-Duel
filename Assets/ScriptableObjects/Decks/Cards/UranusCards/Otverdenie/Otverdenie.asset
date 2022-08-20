@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bd3ba043a7b4cfbbbfbe8046f1e6b51, type: 3}
   m_Name: Otverdenie
   m_EditorClassIdentifier: 
-  Name: 
-  Description: 
+  Name: "\u041E\u0442\u0432\u0435\u0440\u0434\u0435\u043D\u0438\u0435"
+  Description: "+11 \u043A \u0431\u0430\u0448\u043D\u0435, -6 \u043A \u0441\u0442\u0435\u043D\u0435"
   CardCost:
     ResourceType: 0
-    ResourceAmount: 0
-  Actions: []
+    ResourceAmount: 8
+  Actions:
+  - {fileID: 11400000, guid: 110c5d6d5a946f947a01ac52f15ef8c3, type: 2}
+  - {fileID: 11400000, guid: c2da802490c095b4f8623344270cc356, type: 2}

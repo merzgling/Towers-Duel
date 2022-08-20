@@ -12,9 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bd3ba043a7b4cfbbbfbe8046f1e6b51, type: 3}
   m_Name: Garmonia
   m_EditorClassIdentifier: 
-  Name: 
-  Description: 
+  Name: "\u0413\u0430\u0440\u043C\u043E\u043D\u0438\u044F"
+  Description: "+1 \u043C\u043E\u043D\u0430\u0441\u0442\u044B\u0440\u044C, +3 \u043A
+    \u0431\u0430\u0448\u043D\u0435, +3 \u043A \u0441\u0442\u0435\u043D\u0435"
   CardCost:
     ResourceType: 0
-    ResourceAmount: 0
-  Actions: []
+    ResourceAmount: 7
+  Actions:
+  - {fileID: 11400000, guid: f193997647d6dbe4693c4432ddb8f233, type: 2}
+  - {fileID: 11400000, guid: 37ca62c4d5ee7b7498f05582beb1cbd0, type: 2}
+  - {fileID: 11400000, guid: 368763954f934c840adf0f071cbe122b, type: 2}

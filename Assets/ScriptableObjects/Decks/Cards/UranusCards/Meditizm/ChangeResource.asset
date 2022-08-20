@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e61c587f5e8d4325a7144e74f0fef7e5, type: 3}
   m_Name: ChangeResource
   m_EditorClassIdentifier: 
-  _toYourself: 0
-  _type: 0
-  _resourceDelta: 0
+  _toYourself: 1
+  _type: 2
+  _resourceDelta: 6

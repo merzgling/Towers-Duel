@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96c0649c895e4e5195f6f0113ace8d9b, type: 3}
   m_Name: WallCompareWithTower
   m_EditorClassIdentifier: 
-  _predictionType: 0
+  _predictionType: 1

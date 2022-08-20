@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bd3ba043a7b4cfbbbfbe8046f1e6b51, type: 3}
   m_Name: Ametist
   m_EditorClassIdentifier: 
-  Name: 
-  Description: 
+  Name: "\u0410\u043C\u0435\u0442\u0438\u0441\u0442"
+  Description: "+3 \u043A \u0431\u0430\u0448\u043D\u0435"
   CardCost:
     ResourceType: 0
-    ResourceAmount: 0
-  Actions: []
+    ResourceAmount: 2
+  Actions:
+  - {fileID: 11400000, guid: d192b334a14b5b343916b7e94c515353, type: 2}

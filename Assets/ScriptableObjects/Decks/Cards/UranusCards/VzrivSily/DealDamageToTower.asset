@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 352d636e0462433dad26d404843f1bb5, type: 3}
   m_Name: DealDamageToTower
   m_EditorClassIdentifier: 
-  _toYourself: 0
-  _damageAmount: 0
+  _toYourself: 1
+  _damageAmount: 5

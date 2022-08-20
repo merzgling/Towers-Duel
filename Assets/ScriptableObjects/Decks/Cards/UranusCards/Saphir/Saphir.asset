@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bd3ba043a7b4cfbbbfbe8046f1e6b51, type: 3}
   m_Name: Saphir
   m_EditorClassIdentifier: 
-  Name: 
-  Description: 
+  Name: "\u0421\u0430\u043F\u0444\u0438\u0440"
+  Description: "+11 \u043A \u0431\u0430\u0448\u043D\u0435"
   CardCost:
     ResourceType: 0
-    ResourceAmount: 0
-  Actions: []
+    ResourceAmount: 10
+  Actions:
+  - {fileID: 11400000, guid: e4bd4a77bdf5528428023860eb9f8e19, type: 2}

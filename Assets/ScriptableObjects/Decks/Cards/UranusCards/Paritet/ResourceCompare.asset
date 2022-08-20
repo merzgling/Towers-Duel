@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e42c1ebafeab4e7ea06ac6d1cd9360cc, type: 3}
   m_Name: ResourceCompare
   m_EditorClassIdentifier: 
-  _compareMines: 0
+  _compareMines: 1
   _resourceType: 0
   _predictionType: 0

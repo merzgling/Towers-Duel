@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bd3ba043a7b4cfbbbfbe8046f1e6b51, type: 3}
   m_Name: Rubin
   m_EditorClassIdentifier: 
-  Name: 
-  Description: 
+  Name: "\u0420\u0443\u0431\u0438\u043D"
+  Description: "+5 \u043A \u0431\u0430\u0448\u043D\u0435"
   CardCost:
     ResourceType: 0
-    ResourceAmount: 0
-  Actions: []
+    ResourceAmount: 3
+  Actions:
+  - {fileID: 11400000, guid: 73e01abecf08fd6449d3fb765427b07b, type: 2}

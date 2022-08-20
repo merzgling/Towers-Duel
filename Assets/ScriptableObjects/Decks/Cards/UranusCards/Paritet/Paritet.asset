@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bd3ba043a7b4cfbbbfbe8046f1e6b51, type: 3}
   m_Name: Paritet
   m_EditorClassIdentifier: 
-  Name: 
-  Description: 
+  Name: "\u041F\u0430\u0440\u0438\u0442\u0435\u0442"
+  Description: "\u041C\u043E\u043D\u0430\u0441\u0442\u044B\u0440\u044C \u0432\u0441\u0435\u0445
+    \u0441\u0442\u0430\u043D\u043E\u0432\u0438\u0442\u0441\u044F \u0440\u0430\u0432\u043D\u044B\u043C
+    \u043C\u043E\u043D\u0430\u0441\u0442\u044B\u0440\u044E \u0441\u0438\u043B\u044C\u043D\u0435\u0439\u0448\u0435\u0433\u043E"
   CardCost:
     ResourceType: 0
-    ResourceAmount: 0
+    ResourceAmount: 7
   Actions: []

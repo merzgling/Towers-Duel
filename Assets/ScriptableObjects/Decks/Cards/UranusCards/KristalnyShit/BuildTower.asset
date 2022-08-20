@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb818ab223f64a3f8980f0860bac242a, type: 3}
   m_Name: BuildTower
   m_EditorClassIdentifier: 
-  _toYourself: 0
-  _buildAmount: 0
+  _toYourself: 1
+  _buildAmount: 8

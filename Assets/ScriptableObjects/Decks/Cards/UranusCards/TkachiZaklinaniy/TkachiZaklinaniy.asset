@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bd3ba043a7b4cfbbbfbe8046f1e6b51, type: 3}
   m_Name: TkachiZaklinaniy
   m_EditorClassIdentifier: 
-  Name: 
-  Description: 
+  Name: "\u0422\u043A\u0430\u0447\u0438 \u0437\u0430\u043A\u043B\u0438\u043D\u0430\u043D\u0438\u0439"
+  Description: "+1 \u043C\u043E\u043D\u0430\u0441\u0442\u044B\u0440\u044C"
   CardCost:
     ResourceType: 0
-    ResourceAmount: 0
-  Actions: []
+    ResourceAmount: 3
+  Actions:
+  - {fileID: 11400000, guid: 882204190302b2d4da0e507238983a09, type: 2}

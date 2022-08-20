@@ -12,9 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bd3ba043a7b4cfbbbfbe8046f1e6b51, type: 3}
   m_Name: VzrivSily
   m_EditorClassIdentifier: 
-  Name: 
-  Description: 
+  Name: "\u0412\u0437\u0440\u044B\u0432 \u0441\u0438\u043B\u044B"
+  Description: "5 \u0443\u0440\u043E\u043D\u0430 \u0441\u043E\u0431\u0441\u0442\u0432\u0435\u043D\u043D\u043E\u0439
+    \u0431\u0430\u0448\u043D\u0435, +2 \u043C\u043E\u043D\u0430\u0441\u0442\u044B\u0440\u044C"
   CardCost:
     ResourceType: 0
-    ResourceAmount: 0
-  Actions: []
+    ResourceAmount: 3
+  Actions:
+  - {fileID: 11400000, guid: f21975aef65564241aa42780cf7bba8a, type: 2}
+  - {fileID: 11400000, guid: c45ed40bd915a3047aa663718fe2e14f, type: 2}

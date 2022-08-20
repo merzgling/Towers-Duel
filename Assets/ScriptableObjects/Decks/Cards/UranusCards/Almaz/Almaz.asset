@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bd3ba043a7b4cfbbbfbe8046f1e6b51, type: 3}
   m_Name: Almaz
   m_EditorClassIdentifier: 
-  Name: 
-  Description: 
+  Name: "\u0410\u043B\u043C\u0430\u0437"
+  Description: "+15 \u043A \u0431\u0430\u0448\u043D\u0435"
   CardCost:
     ResourceType: 0
-    ResourceAmount: 0
-  Actions: []
+    ResourceAmount: 16
+  Actions:
+  - {fileID: 11400000, guid: 1a236c2d4630e0d4ca8e2c644cc03a47, type: 2}

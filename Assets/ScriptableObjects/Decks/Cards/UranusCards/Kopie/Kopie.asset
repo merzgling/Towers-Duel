@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bd3ba043a7b4cfbbbfbe8046f1e6b51, type: 3}
   m_Name: Kopie
   m_EditorClassIdentifier: 
-  Name: 
-  Description: 
+  Name: "\u041A\u043E\u043F\u044C\u0435"
+  Description: "5 \u0443\u0440\u043E\u043D\u0430 \u0431\u0430\u0448\u043D\u0435 \u0432\u0440\u0430\u0433\u0430"
   CardCost:
     ResourceType: 0
-    ResourceAmount: 0
-  Actions: []
+    ResourceAmount: 4
+  Actions:
+  - {fileID: 11400000, guid: 8109f56ac7c08544da562119a6d86c9d, type: 2}
