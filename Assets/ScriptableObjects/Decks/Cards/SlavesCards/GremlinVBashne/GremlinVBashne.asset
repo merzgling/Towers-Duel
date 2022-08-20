@@ -12,9 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bd3ba043a7b4cfbbbfbe8046f1e6b51, type: 3}
   m_Name: GremlinVBashne
   m_EditorClassIdentifier: 
-  Name: 
-  Description: 
+  Name: "\u0413\u0440\u0435\u043C\u043B\u0438\u043D \u0432 \u0431\u0430\u0448\u043D\u0435"
+  Description: "2 \u0443\u0440\u043E\u043D\u0430, +4 \u043A \u0441\u0442\u0435\u043D\u0435,
+    +2 \u043A \u0431\u0430\u0448\u043D\u0435"
   CardCost:
-    ResourceType: 0
-    ResourceAmount: 0
-  Actions: []
+    ResourceType: 2
+    ResourceAmount: 8
+  Actions:
+  - {fileID: 11400000, guid: 267448892abf2ef4e813966d42b7d2c7, type: 2}
+  - {fileID: 11400000, guid: cce073f73c0bc4f4fb45026eb3dd2fa8, type: 2}
+  - {fileID: 11400000, guid: c5901d2d7f129714c898e36a45e9a2e0, type: 2}

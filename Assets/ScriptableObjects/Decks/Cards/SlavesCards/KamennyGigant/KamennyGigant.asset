@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bd3ba043a7b4cfbbbfbe8046f1e6b51, type: 3}
   m_Name: KamennyGigant
   m_EditorClassIdentifier: 
-  Name: 
-  Description: 
+  Name: "\u041A\u0430\u043C\u0435\u043D\u043D\u044B\u0439 \u0433\u0438\u0433\u0430\u043D\u0442"
+  Description: "10 \u0443\u0440\u043E\u043D\u0430, +4 \u043A \u0441\u0442\u0435\u043D\u0435"
   CardCost:
-    ResourceType: 0
-    ResourceAmount: 0
-  Actions: []
+    ResourceType: 2
+    ResourceAmount: 15
+  Actions:
+  - {fileID: 11400000, guid: 9ef45f4e4dee17341ba7144fd971a4df, type: 2}
+  - {fileID: 11400000, guid: 790d77b7093dbf24d8441545ec5c4858, type: 2}

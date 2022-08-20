@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bd3ba043a7b4cfbbbfbe8046f1e6b51, type: 3}
   m_Name: Ogr
   m_EditorClassIdentifier: 
-  Name: 
-  Description: 
+  Name: "\u041E\u0433\u0440"
+  Description: "7 \u0443\u0440\u043E\u043D\u0430"
   CardCost:
-    ResourceType: 0
-    ResourceAmount: 0
-  Actions: []
+    ResourceType: 2
+    ResourceAmount: 6
+  Actions:
+  - {fileID: 11400000, guid: 65cddbd585ea3bc4cba2fe869c1770e6, type: 2}

@@ -12,9 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bd3ba043a7b4cfbbbfbe8046f1e6b51, type: 3}
   m_Name: Chert
   m_EditorClassIdentifier: 
-  Name: 
-  Description: 
+  Name: "\u0427\u0435\u0440\u0442"
+  Description: "6 \u0443\u0440\u043E\u043D\u0430, \u0432\u0441\u0435 \u0438\u0433\u0440\u043E\u043A\u0438
+    \u0442\u0435\u0440\u044F\u044E\u0442 \u043F\u043E 5 \u0440\u0443\u0434\u044B,
+    \u043C\u0430\u043D\u044B, \u043E\u0442\u0440\u044F\u0434\u043E\u0432"
   CardCost:
     ResourceType: 0
-    ResourceAmount: 0
-  Actions: []
+    ResourceAmount: 5
+  Actions:
+  - {fileID: 11400000, guid: 8c0fcb22ac599944ea3dfad699f8f793, type: 2}
+  - {fileID: 11400000, guid: 987ab3362df47894cbad1b4696443079, type: 2}
+  - {fileID: 11400000, guid: 62db357623e86d242a06a5ab40cd2588, type: 2}
+  - {fileID: 11400000, guid: 221a770bfa56b9f43bc1c7b78fc52310, type: 2}
+  - {fileID: 11400000, guid: a670ac5ecf9c51049a829748b8deb009, type: 2}
+  - {fileID: 11400000, guid: 0097ffc65cf466f40abcca326f54e18a, type: 2}
+  - {fileID: 11400000, guid: 9388eb55e18cb4a4bb3b5990cfa128b2, type: 2}

@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: ChangeResource 2
   m_EditorClassIdentifier: 
   _toYourself: 0
-  _type: 0
+  _type: 1
   _resourceDelta: -5

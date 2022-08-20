@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bd3ba043a7b4cfbbbfbe8046f1e6b51, type: 3}
   m_Name: Oboroten
   m_EditorClassIdentifier: 
-  Name: 
-  Description: 
+  Name: "\u041E\u0431\u043E\u0440\u043E\u0442\u0435\u043D\u044C"
+  Description: "9 \u0443\u0440\u043E\u043D\u0430"
   CardCost:
-    ResourceType: 0
-    ResourceAmount: 0
-  Actions: []
+    ResourceType: 2
+    ResourceAmount: 9
+  Actions:
+  - {fileID: 11400000, guid: 5d6c34b0c028ebe4f8f2a8dcb7cd7c98, type: 2}

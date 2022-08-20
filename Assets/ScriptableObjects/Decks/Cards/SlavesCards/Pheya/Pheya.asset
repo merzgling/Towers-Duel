@@ -12,9 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bd3ba043a7b4cfbbbfbe8046f1e6b51, type: 3}
   m_Name: Pheya
   m_EditorClassIdentifier: 
-  Name: 
-  Description: 
+  Name: "\u0424\u0435\u044F"
+  Description: "2 \u0435\u0434\u0438\u043D\u0438\u0446\u044B \u0443\u0440\u043E\u043D\u0430,
+    \u0438\u0433\u0440\u0430\u0435\u043C \u0441\u043D\u043E\u0432\u0430"
   CardCost:
-    ResourceType: 0
-    ResourceAmount: 0
-  Actions: []
+    ResourceType: 2
+    ResourceAmount: 1
+  Actions:
+  - {fileID: 11400000, guid: 931686248826aed448edf01cdd2d9daa, type: 2}
+  - {fileID: 11400000, guid: 8a307305800d1be469aeaa6c99690778, type: 2}

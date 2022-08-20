@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: StealResource 1
   m_EditorClassIdentifier: 
   _toYourself: 0
-  _type: 0
-  _resourceAmount: 0
+  _type: 1
+  _resourceAmount: 5

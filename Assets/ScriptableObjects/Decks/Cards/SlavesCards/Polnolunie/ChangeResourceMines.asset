@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: ChangeResourceMines
   m_EditorClassIdentifier: 
   _toYourself: 0
-  _type: 0
-  _minesDelta: 0
+  _type: 2
+  _minesDelta: 1

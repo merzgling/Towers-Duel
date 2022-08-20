@@ -12,9 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bd3ba043a7b4cfbbbfbe8046f1e6b51, type: 3}
   m_Name: Voitel
   m_EditorClassIdentifier: 
-  Name: 
-  Description: 
+  Name: "\u0412\u043E\u0438\u0442\u0435\u043B\u044C"
+  Description: "13 \u0443\u0440\u043E\u043D\u0430, \u0432\u044B \u0442\u0435\u0440\u044F\u0435\u0442\u0435
+    3 \u043C\u0430\u043D\u044B"
   CardCost:
-    ResourceType: 0
-    ResourceAmount: 0
-  Actions: []
+    ResourceType: 2
+    ResourceAmount: 13
+  Actions:
+  - {fileID: 11400000, guid: 4832b4b8adbe6df4dbbccc3c0f0f50cb, type: 2}
+  - {fileID: 11400000, guid: 7fb25f60cd7d2764cbbf1a18604a84fd, type: 2}

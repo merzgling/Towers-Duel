@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bd3ba043a7b4cfbbbfbe8046f1e6b51, type: 3}
   m_Name: Gnomy
   m_EditorClassIdentifier: 
-  Name: 
-  Description: 
+  Name: "\u0413\u043D\u043E\u043C\u044B"
+  Description: "4 \u0443\u0440\u043E\u043D\u0430, +3 \u043A \u0441\u0442\u0435\u043D\u0435"
   CardCost:
-    ResourceType: 0
-    ResourceAmount: 0
-  Actions: []
+    ResourceType: 2
+    ResourceAmount: 5
+  Actions:
+  - {fileID: 11400000, guid: 3914ca35c1d251e48a800a4da56257b0, type: 2}
+  - {fileID: 11400000, guid: 1e908dc74d7626543a38330357bb9f47, type: 2}

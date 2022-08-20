@@ -12,9 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bd3ba043a7b4cfbbbfbe8046f1e6b51, type: 3}
   m_Name: Berserk
   m_EditorClassIdentifier: 
-  Name: 
-  Description: 
+  Name: "\u0411\u0435\u0440\u0441\u0435\u0440\u043A"
+  Description: "8 \u0443\u0440\u043E\u043D\u0430, 3 \u0443\u0440\u043E\u043D\u0430
+    \u0432\u0430\u0448\u0435\u0439 \u0431\u0430\u0448\u043D\u0435"
   CardCost:
-    ResourceType: 0
-    ResourceAmount: 0
-  Actions: []
+    ResourceType: 2
+    ResourceAmount: 4
+  Actions:
+  - {fileID: 11400000, guid: 344f98c1ed20ecf439f04c278429e4b0, type: 2}
+  - {fileID: 11400000, guid: 7153198b7730c3b4a8d2d744e960c574, type: 2}

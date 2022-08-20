@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e04123d62894f74a421e635dc2ec6f9, type: 3}
   m_Name: DealDamage 1
   m_EditorClassIdentifier: 
-  _toYourself: 0
-  _damageAmount: 0
+  _toYourself: 1
+  _damageAmount: 3

@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c043a8a5c60b43c1a2bfe87e42dcdf51, type: 3}
   m_Name: WallCompare
   m_EditorClassIdentifier: 
-  _predictionType: 0
+  _predictionType: 1

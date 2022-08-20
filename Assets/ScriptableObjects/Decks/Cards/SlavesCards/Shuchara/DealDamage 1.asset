@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: DealDamage 1
   m_EditorClassIdentifier: 
   _toYourself: 0
-  _damageAmount: 0
+  _damageAmount: 6

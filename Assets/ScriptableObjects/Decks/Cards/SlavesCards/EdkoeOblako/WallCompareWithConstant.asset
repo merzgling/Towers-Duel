@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: WallCompareWithConstant
   m_EditorClassIdentifier: 
   _predictionType: 0
-  _constantValue: 0
+  _constantValue: 10
   _toYourself: 0
