@@ -36,6 +36,7 @@ namespace GameLogic.GameLoop
             {
                 CurrentPlayer++;
                 CurrentPlayer %= _totalPlayer;
+                _players[CurrentPlayer].GetIncome();
             }
 
             _players[CurrentPlayer].DrawCard(1); 

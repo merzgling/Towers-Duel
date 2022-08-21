@@ -12,14 +12,14 @@ namespace GameView
         private int _playerIndex;
         
         [SerializeField] private Text _name;
-        [SerializeField] private Text _cardCost;
         [SerializeField] private Text _description;
+        [SerializeField] private CostView _costView;
 
         public void SetData(Card card, int playerIndex, GameController gameController)
         {
             _card = card;
             _name.text = _card.Name;
-            _cardCost.text = _card.CardCost.ResourceAmount.ToString();
+            _costView.SetData(_card.CardCost);
             _description.text = _card.Description;
             _playerIndex = playerIndex;
             _gameController = gameController;

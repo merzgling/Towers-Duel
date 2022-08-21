@@ -177,6 +177,14 @@ namespace GameLogic.Player
                 return _playerData.SlavesMines;
             return 0;
         }
+        
+
+        public void GetIncome()
+        {
+            ChangeResources(GetResourceMinesAmount(ResourceType.Energy), ResourceType.Energy);
+            ChangeResources(GetResourceMinesAmount(ResourceType.Uranus), ResourceType.Uranus);
+            ChangeResources(GetResourceMinesAmount(ResourceType.Slaves), ResourceType.Slaves);
+        }
 
         private void DrawCard(Card card)
         {

@@ -12,8 +12,7 @@ namespace Controller
         [SerializeField] private DeckInfo deckInfo;
         [SerializeField] private GameRules _gameRules;
 
-        [SerializeField] private PlayerView _playerView1;
-        [SerializeField] private PlayerView _playerView2;
+        [SerializeField] private GameView.GameView _gameView;
 
         private PlayerData[] _playersData;
         
@@ -41,8 +40,7 @@ namespace Controller
         {
             if (_game.CurrentPlayer == 1)
                 _aiPlayerController.TakeAction();
-            _playerView1.SetData(_playersData[0], 0, this);
-            _playerView2.SetData(_playersData[1], 1, this);
+            _gameView.SetData(_playersData[0], _playersData[1], this);
         }
     }
 }

@@ -41,6 +41,8 @@ namespace GameLogic.Player
         int GetResourceAmount(ResourceType type);
 
         int GetResourceMinesAmount(ResourceType type);
+
+        void GetIncome();
         
         PlayerData PlayerData { get; }
     }
